@@ -1,6 +1,6 @@
 # Veranika Smiayun
 
-![foto](photo/photo.jpg)
+![foto](assets/photo.jpg)
 <br />
 
 ## Contact information:
