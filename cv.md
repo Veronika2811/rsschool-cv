@@ -1,6 +1,6 @@
 # Veranika Smiayun
 
-![foto](styles/photo.jpg)
+![foto](images/photo.jpg)
 <br />
 
 ## Contact information:
@@ -19,13 +19,10 @@ I like to dance 💃, karaoke 🎤, draw pictures 🎨, dogs 🐶
 <br/>
 
 ## Skills
-- HTML
-- CSS, Sass
-- JavaScript
-- React
-- Figma
+- HTML, CSS (SASS)
+- JavaScript/Typescript
+- React, Redux, Redux Toolkit
 - GIT, Github
-- SQL
 <br/>
 
 ## Code example
@@ -51,9 +48,8 @@ const stringParser = (url) => {
 * 2022 The Rolling Scopes / React
 * 2021-2022 The Rolling Scopes / JavaScript/Front-end. Stage 0/1/2
 * 2021 Code Basics - HTML / CSS / JS
-* 2019 Russian social state university / Psychology
 <br/>
 
 ## Languages
-* English - A1
+* English - A2
 * Russian - Native
