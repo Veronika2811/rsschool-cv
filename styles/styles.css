@@ -1,0 +1,180 @@
+:root {
+  --link-hover-color: #000000;
+  --main-text-color: #4d4e4e;
+  --section-title-color: #1bb7ac;
+  --main-color: #daeeec;
+  --btn-hover-color: #c6e8e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Anek Malayalam", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--main-text-color);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  max-width: 1200px;
+  margin: 50px;
+  box-shadow: 0 35px 55px var(--main-text-color);
+}
+
+.left-side {
+  background-color: var(--main-color);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 30px;
+}
+
+.title {
+  padding-bottom: 20px;
+  font-family: "Tai Heritage Pro", serif;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid var(--section-title-color);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 15px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item__link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.item__link:hover {
+  color: var(--link-hover-color);
+}
+
+.skills__items,
+.projects__items {
+  list-style: inside;
+}
+
+.languages__item {
+  justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  gap: 3px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border: 1px solid var(--main-text-color);
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.control_black {
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navigation__link,
+.github {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: color 0.3s;
+}
+
+.navigation__link:hover {
+  color: var(--link-hover-color);
+}
+
+.user__title {
+  font-family: "Tai Heritage Pro", serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
+.user__subtitle {
+  font-size: 30px;
+}
+
+.line {
+  height: 2px;
+  margin: 10px 0;
+  border: none;
+  background-color: var(--main-text-color);
+}
+
+.experience__items {
+  gap: 0px;
+  list-style: inside;
+}
+
+.project__link:hover {
+  color: var(--section-title-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer__icon-rsschool {
+  width: 150px;
+  transition: filter 0.3s;
+}
+
+.footer__icon-rsschool:hover {
+  filter: invert(93%) sepia(19%) saturate(128%) hue-rotate(124deg) brightness(99%) contrast(89%);
+}
