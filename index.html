@@ -189,11 +189,11 @@
         </section>
         <section id="code">
           <h2 class="title">Code</h2>
-          <pre><code class="language-js"> 
+          <pre><code class="language-js">
       const stringParser = (url) => {
       return url
         .slice (url.indexOf('?') + 1)
-        .split('&')
+        .split('&amp;')
         .reduce((obj, current) => {
           const [key, value] = current.split("=");
           obj[key] = value
