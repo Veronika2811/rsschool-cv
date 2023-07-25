@@ -17,13 +17,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: "Anek Malayalam", sans-serif;
+  font-family: 'Anek Malayalam', sans-serif;
   font-weight: 300;
   font-size: 20px;
   color: var(--main-text-color);
 }
 
-.main {
+.container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   max-width: 1200px;
@@ -45,7 +45,7 @@ body {
 
 .title {
   padding-bottom: 20px;
-  font-family: "Tai Heritage Pro", serif;
+  font-family: 'Tai Heritage Pro', serif;
   font-size: 24px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ body {
 }
 
 .title:after {
-  content: "";
+  content: '';
   display: block;
   border-bottom: 3px solid var(--section-title-color);
 }
@@ -112,6 +112,11 @@ body {
   color: var(--main-color);
 }
 
+.items_bold {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -131,14 +136,15 @@ body {
 }
 
 .user__title {
-  font-family: "Tai Heritage Pro", serif;
+  font-family: 'Tai Heritage Pro', serif;
+  font-size: 42px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-size: 42px;
 }
 
 .user__subtitle {
   font-size: 30px;
+  font-weight: 300;
 }
 
 .line {
@@ -176,5 +182,6 @@ body {
 }
 
 .footer__icon-rsschool:hover {
-  filter: invert(93%) sepia(19%) saturate(128%) hue-rotate(124deg) brightness(99%) contrast(89%);
+  filter: invert(93%) sepia(19%) saturate(128%) hue-rotate(124deg)
+    brightness(99%) contrast(89%);
 }
